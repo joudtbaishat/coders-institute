@@ -1,0 +1,40 @@
+-what i noticed when i pressed tab?
+Answer:
+that it focused on the question.
+
+-what i noticed when i pressed enter?
+Answer:
+that it could show the answer and hide it.
+
+-Mistakes in video code:
+Answer:
+prev => <video src="media/intro.mp4" controls muted="false"></video>
+current (corrected)=> <video src="../media/intro.mp4" controls preload="metadata"></video>
+
+-Which folder does the Relative Path start from here, and how does that affect src?
+Answer:
+It starts from the folder of the current file (pages/), so I added ../ to go up one folder.
+
+-What is the effect of muted="false" on the sound, and what change did you make?
+Answer:
+It muted the sound, and now we unmuted it.
+
+-Which preload value fits the requirement?
+Answer:
+metadata
+
+-اختبر النسخة التي سيستلمها المدرس
+
+من «الرئيسية» افتح «اعرف متطلبات الكورس»، وتحقق أنك وصلت إلى متطلبات الكورس الأول:
+الجواب:
+نعم لقد وصلت وافتتح صفحة الكورسات.
+
+افتح دليل الكورسات وتأكد أنك تستطيع معرفة مستوى كل كورس ومدّته، وأن صورة الغلاف وتعليقها يظهران:
+الجواب:
+نعم عملية ناجحة وتمكنت من رؤية مستوى كل كورس و مدته
+
+انتقل إلى صفحة التواصل، ثم ارجع إلى الرئيسية باستخدام <nav>:
+نعم,انتقل بنجاح
+
+ارجع إلى FAQ وافتح السؤال الثاني باستخدام Keyboard:
+عملية ناجحة تمت من خلال ال tab and enter.
