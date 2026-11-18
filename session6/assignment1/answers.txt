@@ -1,0 +1,5 @@
+        <link rel="stylesheet" href="../..//styles.css"> courses page
+        <link rel="stylesheet" href="..//styles.css"> index page
+.course-card[data-status="open"] .status{
+    background-color: green;
+                                        }
