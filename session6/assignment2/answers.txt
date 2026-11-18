@@ -1,0 +1,4 @@
+the color is purple; the (id) has the top priorty then the priority goes for class then for h1, in conclusion h1 has the least priority 
+frist try when the orange color is the last, the title becomes orange, second try the title becomes green, the reaso behind this is that the priority is for the recent or latest tag.
+i chose the descendant combinator (الخاوات) because this allows the <p> inside the div to inheet the background color 
+when i added the focus visible i noticed that when i click tab the link gets bordered with a pink box
