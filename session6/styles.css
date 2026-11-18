@@ -1,0 +1,15 @@
+:root{
+    --brand: teal;
+}
+
+h1,h2{
+    color: var(--brand);
+}
+
+.course-card[data-status="open"] .status{
+    background-color: green;
+}
+
+.course-card[data-status="full"] .status{
+    background-color: grey;
+}
