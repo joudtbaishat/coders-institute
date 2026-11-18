@@ -1,0 +1,37 @@
+:root {
+--brand: #da1641;
+font-size: 16px;
+}
+body {
+color: #24364b;
+background: white;
+}
+h1, h2 {
+color: var(--brand);
+}
+.course-card{
+background: #fff4d9;
+}
+.course-card {
+background: #72c3ce;
+}
+.course-card {
+font-size: 20px;
+}
+.course-card h2 {
+font-size: 1.2em;
+}
+.course-card{
+background: #fff4d9;
+}
+.course-card h2::before {content:"•";}
+.action {
+color: #12546c;
+}
+.action:hover {
+color: #6845a8;
+}
+.action:focus-visible {
+outline: 2px solid orange;
+outline-offset: 3px;
+}   

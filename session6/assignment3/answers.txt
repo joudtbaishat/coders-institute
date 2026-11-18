@@ -1,0 +1,12 @@
+brand was written incorrectly which influenced the functionality of it, it was written as 
+h1, h2 {
+color: var(--brnad);}
+
+the call for course-card class was written incorrectly so the back ground color was not obvious
+course-card {
+background: #eef5ff;
+} there was no selector before it
+
+to show the font size in 24px, the em should be 1.2 so that the product of 1.2*20=24
+.course-card h2 {
+font-size: 1.5em;} font size before correction was 30px
