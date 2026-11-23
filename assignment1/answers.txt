@@ -1,2 +1,0 @@
-<title></title> for the browser tab title 
-<h1></h1> for the main title 

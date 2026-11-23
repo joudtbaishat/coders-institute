@@ -1,3 +1,0 @@
-index page has both nav to courses and contact 
-courses has nav to index
-contact has nav to index, gmail, w3schools 
