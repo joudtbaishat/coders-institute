@@ -1,0 +1,73 @@
+:root{
+    --main-pageBackground: #EFF6FF;
+    --num-title: #2563EB;
+    --mainCard-bg: #E2E8F0;
+    --card-bg: #FFFFFF;
+    --card-text: #183B42;
+    --card-border: #CBD5E1;
+    --card-width: 150px;
+    --border-radius: 20px;
+}
+body{
+    background-color:var(--main-pageBackground);
+}
+.parent{
+    display: flex;
+    gap: 13px;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: var(--mainCard-bg);
+    border-radius: var(--border-radius);
+    padding: 70px;
+    width:700px;
+    margin-inline: auto;
+}
+.header{
+    text-align: center;
+    color:var(--num-title);
+    font-weight: bold;
+    line-height: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.completed-lessons{
+color:var(--card-text);
+background-color: var(--card-bg);
+border: 2px solid var(--card-border); 
+padding:15px;
+width: var(--card-width);
+border-radius: var(--border-radius);
+line-height: 25px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+font-weight: bold;
+}
+.practical-work{
+color:var(--card-text);
+background-color: var(--card-bg);
+border: 2px solid var(--card-border); 
+padding:15px;
+width: var(--card-width);
+border-radius: var(--border-radius);
+line-height: 25px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+font-weight: bold;
+}
+.small-projects{
+color:var(--card-text);
+background-color: var(--card-bg);
+border: 2px solid var(--card-border); 
+padding:15px;
+width: var(--card-width);
+border-radius: var(--border-radius);
+line-height: 25px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: centers;
+font-weight: bold;
+}
+
+h1{
+    color: var(--num-title);
+}
+
