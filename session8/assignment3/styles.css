@@ -1,0 +1,93 @@
+:root{
+    /*backgrounds*/
+    --main-pageBackground: #F5F3FF;
+    --card-bg: #FFFFFF;
+    --contactButton-bg: #FFFFFF;
+    --courseType-bg: #EDE9FE;
+    
+    /* primary text color*/
+    --card-text: #183B42;
+    --card-subtext: #6D28D9;
+    --card-description: #64748B;
+    --card-border: #CBD5E1;
+    --card-width: 300px;
+    --border-radius: 13px;
+     
+}
+body{
+    background-color:var(--main-pageBackground);
+}
+.parent{
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+    background-color: var(--card-bg);
+    border-radius: var(--border-radius);
+    padding: 20px;
+    width: 100%;
+    max-width: 700px;
+    margin-inline: auto;
+    border: 2px solid var(--card-border);
+    box-sizing: border-box;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.trainer-pic img{
+    border-radius: 13px;
+    width: 200px;
+}
+.trainer-description{
+    color:var(--card-text);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+}
+.parent2{
+    display: flex;
+    gap: 10px;
+    color: var(--card-subtext);
+    margin-bottom: 20px;
+    
+}
+
+.parent2 span{
+    background-color: var(--courseType-bg);
+    width: 50px;
+    text-align: center;
+    border-radius: 5px ;
+    font-weight: bold;
+}
+.watch-course{
+    color: var(--card-bg);
+    background-color: var(--card-subtext);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 170px;
+    border: 2px solid var(--card-subtext);
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.contact-me{
+    color: var(--card-subtext);
+    background-color: var(--card-bg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 170px;
+    border: 2px solid;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid var(--card-subtext);
+    font-weight: bold;
+}
+.trainer-description h1+h4{
+    color: var(--card-subtext);
+}
+.trainer-description p,h1{
+    line-height: 15px;
+}
+.trainer-description h3,h1{
+    line-height: 5px;
+}
+.trainer-description p{
+    color: var(--card-description)
+}
